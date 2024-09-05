@@ -1,56 +1,1169 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - HeroBiz Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+ 
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: HeroBiz
+  * Template URL: https://bootstrapmade.com/herobiz-bootstrap-business-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
-<body>
-    <div class="container">
-        <h1>Coming Soon</h1>
-        <p>We're working hard to bring you an awesome website.</p>
-        <div class="countdown">
-            <p id="demo" class="countdown-timer"></p>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/niqa_logo.png" alt="">
+        <!-- <h1 class="sitename">HeroBiz</h1>
+        <span>.</span> -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#contact">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="https://calendly.com/niqa-hygiene/30min" target="_blank" rel="noopener">Schedule a Service</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <div class="section first-section-wrapper">
+      <div class="section first-section">
+          <!-- <button class="btn contact-btn">Contact Us</button>
+          <div class="hamburger-menu" id="hamburgerMenu">
+              <div class="navbar-toggler-icon"></div>
+          </div> -->
+
+          <div class="main-text">
+            Niqa <br />
+            Elevating Hygiene Standards
+          </div>
+
+          <div class="row">
+            <div class="column" id="column1">
+                <div class="icon-text">
+                    <img src="assets/icon/satisfaction.svg" alt="Icon 1" class="icon">
+                    <p class="text">Satisfaction Guarantee</p>
+                </div>
+            </div>
+            <div class="column" id="column2">
+                <div class="icon-text">
+                    <img src="assets/icon/24x7.svg" alt="Icon 2" class="icon">
+                    <p class="text">24H Availability</p>
+                </div>
+            </div>
+            <div class="column" id="column3">
+                <div class="icon-text">
+                    <img src="assets/icon/Appointments.svg" alt="Icon 3" class="icon">
+                    <p class="text">Flexible Appointments</p>
+                </div>
+            </div>
         </div>
+      </div>
+<!-- 
+      Menu Overlay
+      <div class="menu-overlay" id="menuOverlay">
+          <a href="#">Option 1</a>
+          <a href="#">Option 2</a>
+          <a href="#">Option 3</a>
+          <a href="#">Option 4</a>
+          <a href="#">Option 5</a>
+      </div> -->
+  </div>
+
+    <!-- Featured Services Section -->
+    <!-- <section id="featured-services" class="featured-services section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><img src="assets/icon/grease-trap-cleaning.png" alt="Grease Trap Cleaning" class="service-icon"></div>
+              <h4><a href="" class="stretched-link">Grease Trap Installation</a></h4>
+              <p></p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><img src="assets/icon/Tank Cleaning services.png" alt="Tank Cleaning services" class="service-icon"></div>
+              <h4><a href="" class="stretched-link">Sump Pit cleaning</a></h4>
+              <p></p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><img src="assets/icon/Drain Line Jetting.png" alt="Drain Line Jetting services" class="service-icon"></div>
+              <h4><a href="" class="stretched-link">Drain Line Jetting</a></h4>
+              <p></p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><img src="assets/icon/Sewage Tank.png" alt="Sewage Tank Cleaning services" class="service-icon"></div>
+              <h4><a href="" class="stretched-link">Sewage Tank Cleaning</a></h4>
+              <p></p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><img src="assets/icon/Pest Control Service.png" alt="Pest Control Service" class="service-icon"></div>
+              <h4><a href="" class="stretched-link">Pest Control Service</a></h4>
+              <p></p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><img src="assets/icon/Kitchen Hood Cleaning.png" alt="Kitchen Hood Cleaning" class="service-icon"></div>
+              <h4><a href="" class="stretched-link">Kitchen Hood Cleaning</a></h4>
+              <p></p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section> -->
+    <!-- /Featured Services Section -->
+    
+    <!-- About Section -->
+     
+    <!-- <section id="about" class="about section"> -->
+
+      <!-- Section Title -->
+
+      <!-- <div class="container section-title" data-aos="fade-up"> 
+        <h2>About Us</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>--><!-- End Section Title -->
+
+      <!-- <div class="container" data-aos="fade-up"> 
+
+        <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-5">
+            <div class="about-img">
+              <img src="assets/img/about-portrait.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <h3 class="pt-0 pt-lg-5">Neque officiis dolore maiores et exercitationem quae est seda lidera pat claero</h3>-->
+
+            <!-- Tabs -->
+             <!--  
+            <ul class="nav nav-pills mb-3">
+              <li><a class="nav-link active" data-bs-toggle="pill" href="#about-tab1">Saepe fuga</a></li>
+              <li><a class="nav-link" data-bs-toggle="pill" href="#about-tab2">Voluptates</a></li>
+              <li><a class="nav-link" data-bs-toggle="pill" href="#about-tab3">Corrupti</a></li>
+            </ul>-->
+            <!-- End Tabs -->
+
+            <!-- Tab Content -->
+             <!--  
+            <div class="tab-content">
+
+              <div class="tab-pane fade show active" id="about-tab1">
+
+                <p class="fst-italic">Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
+                </div>
+                <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                </div>
+                <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Omnis ab quia nemo dignissimos rem eum quos..</h4>
+                </div>
+                <p>Eius alias aut cupiditate. Dolor voluptates animi ut blanditiis quos nam. Magnam officia aut ut alias quo explicabo ullam esse. Sunt magnam et dolorem eaque magnam odit enim quaerat. Vero error error voluptatem eum.</p>
+
+              </div>-->
+              <!-- End Tab 1 Content -->
+
+              <!-- 
+
+              <div class="tab-pane fade" id="about-tab2">
+
+                <p class="fst-italic">Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
+                </div>
+                <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                </div>
+                <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Omnis ab quia nemo dignissimos rem eum quos..</h4>
+                </div>
+                <p>Eius alias aut cupiditate. Dolor voluptates animi ut blanditiis quos nam. Magnam officia aut ut alias quo explicabo ullam esse. Sunt magnam et dolorem eaque magnam odit enim quaerat. Vero error error voluptatem eum.</p>
+
+              </div> -->
+              <!-- End Tab 2 Content -->
+              <!-- 
+              <div class="tab-pane fade" id="about-tab3">
+
+                <p class="fst-italic">Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
+                </div>
+                <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                </div>
+                <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Omnis ab quia nemo dignissimos rem eum quos..</h4>
+                </div>
+                <p>Eius alias aut cupiditate. Dolor voluptates animi ut blanditiis quos nam. Magnam officia aut ut alias quo explicabo ullam esse. Sunt magnam et dolorem eaque magnam odit enim quaerat. Vero error error voluptatem eum.</p>
+
+             </div> -->
+             <!-- End Tab 3 Content -->
+
+            <!-- </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section> -->
+    <!-- About Section --> 
+  
+     
+    <!-- Clients Section -->
+    <!-- <section id="clients" class="clients section">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+          </div>
+
+        </div>
+
+      </div>
+
+    </section> -->
+    <!-- /Clients Section -->
+
+
+    <!-- Onfocus Section -->
+    <!-- <section id="onfocus" class="onfocus section dark-background"> 
+
+      <div class="container-fluid p-0" data-aos="fade-up">
+
+        <div class="row g-0">
+          <div class="col-lg-6 video-play position-relative">
+            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox pulsating-play-btn"></a>
+          </div>
+          <div class="col-lg-6">
+            <div class="content d-flex flex-column justify-content-center h-100">
+              <h3>Voluptatem dignissimos provident quasi corporis</h3>
+              <p class="fst-italic">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua.
+              </p>
+              <ul>
+                <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+              </ul>
+              <a href="#" class="read-more align-self-start"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>--><!-- /Onfocus Section -->
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <div class="container" data-aos="fade-up">
+
+        <ul class="nav nav-tabs row gy-4 d-flex">
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
+              <!-- <img src="assets/icon/Drain Line Jetting.png" alt="Drain Line Jetting" /> -->
+              <img src="assets/icon/Drain Line Jetting.svg" alt="Drain Line Jetting" height="55" width="55">
+
+              <!-- <i class="bi bi-binoculars" style="color: #0dcaf0;"></i> -->
+              <h4>Drain Line Jetting</h4>
+            </a>
+          </li><!-- End Tab 1 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
+              <!-- <i class="bi bi-box-seam" style="color: #6610f2;"></i> -->
+              <img src="assets/icon/Tank Cleaning services.svg" alt="Drain Line Jetting" height="55" width="55">
+              <h4>Tank Cleaning Services</h4>
+            </a>
+          </li><!-- End Tab 2 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
+              <!-- <i class="bi bi-brightness-high" style="color: #20c997;"></i> -->
+              <img src="assets/icon/grease-trap-cleaning.svg" alt="Drain Line Jetting" height="55" width="55">
+              <h4>Grease Trap Cleaning</h4>
+            </a>
+          </li><!-- End Tab 3 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4">
+              <!-- <i class="bi bi-command" style="color: #df1529;"></i> -->
+              <img src="assets/icon/Pest Control Service.svg" alt="Drain Line Jetting" height="55" width="55">
+              <h4>Pest Control Service</h4>
+            </a>
+          </li><!-- End Tab 4 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-5">
+              <!-- <i class="bi bi-easel" style="color: #0d6efd;"></i> -->
+              <img src="assets/icon/Kitchen Hood Cleaning.svg" alt="Drain Line Jetting" height="55" width="55">
+              <h4>Kitchen Hood Cleaning</h4>
+            </a>
+          </li><!-- End Tab 5 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-6">
+              <!-- <i class="bi bi-map" style="color: #fd7e14;"></i> -->
+              <img src="assets/icon/AC_Duct_cleaning (4).svg" alt="Drain Line Jetting"color: #fd7e14; height="55" width="55">
+              <h4>AC Duct Cleaning</h4>
+            </a>
+          </li><!-- End Tab 6 Nav -->
+
+        </ul>
+
+        <div class="tab-content">
+
+          <div class="tab-pane fade active show" id="features-tab-1">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+                <h3>Drain Line Jetting</h3>
+                <p class="fst-italic">
+                  We offer advanced drain line jetting services to keep your drainage systems at peak efficiency. Using high-pressure water jets.
+
+                </p>
+                <ul>
+                  <li><i class="bi bi-check-circle-fill"></i> Our expert technicians thoroughly clean your drain lines,removing blockages and buildup that cause costly disruptions.</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Utilizing advanced technology, our skilled staff efficiently blast away clogs and debris, restoring optimal drain function.</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Regular jetting prevents future blockages and extends system lifespan, saving you money in the long run.</li>
+                </ul>
+                <p><!--
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                  culpa qui officia deserunt mollit anim id est laborum -->
+                </p>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/img/features-1.svg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 1 -->
+
+          <div class="tab-pane fade" id="features-tab-2">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>Tank Cleaning Services</h3>
+                 <p class="fst-italic"> 
+                  We are dedicated to keeping your tanks in top condition, ensuring they operate efficiently and safely. Whether it’s for water, septic, sump, sewage, or swimming pool. our expert cleaning services guarantee a clean and well-maintained system, protecting your property and investment.
+
+                </p>
+                <!--
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p>-->
+                <ul>
+                  <li><i class="bi bi-check-circle-fill"></i> We clean and maintain all types of tanks for optimal performance. </li>
+                  <li><i class="bi bi-check-circle-fill"></i> Our services remove contaminants and prevent issues, ensuring safe operation.</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Trust our team to extend the lifespan of your systems and safeguard your investment.</li>
+                  <!-- <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li> -->
+                </ul>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-2.svg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 2 -->
+
+          <div class="tab-pane fade" id="features-tab-3">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>Grease Trap Cleaning</h3>
+                <p class="fst-italic">
+                  Regular grease trap cleaning is essential to prevent clogs, Intercept grease before it enters the wastewater disposal system and maintain efficiency.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check-circle-fill"></i> Regular cleaning prevents grease buildup and clogs, ensuring smooth operation and avoiding costly disruptions.</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Our expert team uses advanced techniques and tools for thorough cleaning, ensuring your system runs smoothly and efficiently. </li>
+                  <li><i class="bi bi-check-circle-fill"></i> Don't wait for problems—choose professional grease trap cleaning for hassle-free operation.</li>
+                </ul>
+                <!-- <p class="fst-italic"> 
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p>-->
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-3.svg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 3 -->
+
+          <div class="tab-pane fade" id="features-tab-4">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>Pest Control Service</h3>
+                <p class="fst-italic">
+                  Ensure a pest-free environment with our expert pest control services. We effectively eliminate pests, protect your property, and maintain a safe, hygienic space. Trust our professionals to keep your home and business free from unwanted intruders.
+
+                </p>
+                <!-- <p class="fst-italic"> 
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p>-->
+                <ul>
+                  <li><i class="bi bi-check-circle-fill"></i> Effective pest elimination for a pest-free environment.</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Safe and eco-friendly solutions for your family and pets.</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Professional support to prevent future infestations.</li>
+                </ul>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-4.svg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 4 -->
+
+          <div class="tab-pane fade" id="features-tab-5">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>Kitchen Hood Cleaning</h3>
+                <!-- <p  > 
+                  We ensure a safe and efficient kitchen environment by removing grease and debris from your ventilation system. This helps prevent fire hazards, comply with health regulations, enhance airflow, and extend the lifespan of your equipment. Trust our experts to keep your kitchen running smoothly and safely.
+
+                </p>-->
+               <p class="fst-italic"> 
+                 We ensure a safe and efficient kitchen environment by removing grease and debris from your ventilation system. This helps prevent fire hazards, comply with health regulations, enhance airflow, and extend the lifespan of your equipment. Trust our experts to keep your kitchen running smoothly and safely.
+
+                </p>
+                <ul>
+                  <li><i class="bi bi-check-circle-fill"></i> Regular cleaning removes grease buildup, reducing the risk of kitchen fires.</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Meet health and safety standards with our expert cleaning.</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Ensure efficient ventilation for a healthier kitchen environment.</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Maintain and extend the lifespan of your kitchen hood system with regular cleaning.</li>
+                </ul>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="assets/img/Kitchen hood.svg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 5 -->
+
+          <div class="tab-pane fade" id="features-tab-6">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>AC Duct Cleaning</h3>
+                <!-- <p> 
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                  culpa qui officia deserunt mollit anim id est laborum
+                </p>-->
+                <p class="fst-italic">
+                  Our AC duct cleaning service ensures your air conditioning system operates at its best by removing dust, debris, and contaminants from the ducts. We eliminate buildup that can lead to mold, bacteria, and unpleasant odors, improving air quality and system efficiency. 
+
+                </p>
+                <ul>
+                  <li><i class="bi bi-check-circle-fill"></i> Regular duct cleaning helps prevent respiratory issues, enhances airflow, and promotes a healthier indoor environment.</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Enhance Efficiency and prevent health issues by eliminating buildup.</li>
+                  <!-- <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li> -->
+                </ul>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="assets/img/AC Duct.svg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 6 -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Features Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section">
+      <div class="container" data-aos="zoom-out">
+
+        <div class="row g-5">
+
+          <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
+            <h3>Join Our Team</h3>
+            <p> At Niqa Hygiene, we’re looking for passionate individuals to help us elevate hygiene standards. If you’re dedicated and eager to make a difference, join us and be part of a team that values excellence and teamwork. Apply now!</p>
+            <a class="cta-btn align-self-start" href="#">Join Us</a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
+            <div class="img">
+              <img src="assets/img/join us.png" alt="" class="img-fluid">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Our Services</h2>
+        <p>We help with all your Cleaning service needs</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-5">
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/Tank_cleaning.png" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-activity"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Tank Cleaning Services</h3>
+                </a>
+                <p>Dedicated to maintaining your tanks for efficient and safe operation, whether for water, septic, sump, sewage, or pools.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/Grease_Trap.png" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-broadcast"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Grease Trap Cleaning</h3>
+                </a>
+                <p>Prevent clogs with regular grease trap cleaning service by our expert team using advanced techniques and tools.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/Drain_Jetting.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-easel"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Drain Line Jetting</h3>
+                </a>
+                <p>We offer advanced drain line jetting services to keep your drainage systems at peak efficiency using high-pressure water jets.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/Kitchen Hood.png" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-bounding-box-circles"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Kitchen Hood Duct Cleaning </h3>
+                </a>
+                <p>We ensure a safe and efficient kitchen environment by removing grease and debris from your ventilation system.</p>
+                <a href="service-details.html" class="stretched-link"></a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/pest control.png" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-calendar4-week"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Pest Control Service</h3>
+                </a>
+                <p>Keep your space pest-free with our expert services, eliminating pests and protecting your property for a safe environment</p>
+                <a href="service-details.html" class="stretched-link"></a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="700">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/duct-cleaning.png" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-chat-square-text"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                  <h3>AC Duct Cleaning</h3>
+                </a>
+                <p>Our AC duct cleaning service removes dust, debris, and contaminants, ensuring your air conditioning system operates efficiently.</p>
+                <a href="service-details.html" class="stretched-link"></a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Testimonials Section -->
+
+    <!-- Pricing Section -->
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
+
+      <div class="container-fluid">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+
+            <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
+              <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
+              <p>
+                At Niqa Hygiene, maintaining a clean and healthy environment is our priority. Our expert services, from grease trap cleaning and sump pit maintenance to drainage blockage removal, water tank cleaning, and AC duct cleaning, ensure your space stays pristine and problem-free. Serving Abu Dhabi and Dubai, Explore our FAQs to discover how Niqa Hygiene keeps your environment spotless and safe.
+              </p>
+            </div>
+
+            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="faq-item faq-active">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>How Often Should Grease Traps Be Cleaned and Why Is Regular Cleaning Important?</h3>
+                <div class="faq-content">
+                  <p>Grease traps should be cleaned every week to 4 weeks, depending on usage, to prevent blockages and ensure smooth operation. Regular cleaning is essential to avoid costly repairs, maintain proper drainage, and comply with health and safety regulations.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>What is sump pit cleaning, and why is it important?</h3>
+                <div class="faq-content">
+                  <p>Sump pit cleaning removes debris and sludge buildup, preventing blockages, flooding, and potential damage to your property.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>How can drainage blockages be effectively removed?</h3>
+                <div class="faq-content">
+                  <p>Drainage blockages can be cleared using professional methods like jetting or mechanical tools to restore water flow and prevent future clogs.                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 order-1 order-lg-2">
+            <img src="assets/img/faq.jpg" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Faq Section -->
+
+    <!-- Portfolio Section -->
+
+
+    <!-- Recent Posts Section -->
+    <section id="recent-posts" class="recent-posts section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Recent Blog Posts</h2>
+        <p>Stay updated with our latest insights and tips for maintaining a cleaner, safer environment.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <article>
+
+              <div class="post-img">
+                <img src="assets/img/blog/grease trap blog.png" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Grease Trap Cleaning</p>
+
+              <h2 class="title">
+                <a href="https://medium.com/@niqa.hygiene/how-regular-grease-trap-cleaning-can-save-your-business-money-and-headaches-b763f54bfc06">How Regular Grease Trap Cleaning Can Save Your Business Money and Headaches</a>
+              </h2>
+
+              <div class="d-flex align-items-center">
+                <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <div class="post-meta">
+                  <p class="post-author">Niqa Hygiene</p>
+                  <p class="post-date">
+                    <time datetime="2024-08-20">Aug 20, 2024</time>
+                  </p>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <article>
+
+              <div class="post-img">
+                <img src="assets/img/blog/grease trap tanker.png" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Grease Trap Cleaning</p>
+
+              <h2 class="title">
+                <a href="https://medium.com/@niqa.hygiene/5-hidden-risks-of-neglecting-grease-trap-maintenance-and-how-to-avoid-them-9bf678ca6ea9">5 Hidden Risks of Neglecting Grease Trap Maintenance and How to Avoid Them</a>
+              </h2>
+
+              <div class="d-flex align-items-center">
+                <img src="assets/img/blog/blog-author-2.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <div class="post-meta">
+                  <p class="post-author">Muhammed Fasil</p>
+                  <p class="post-date">
+                    <time datetime="2024-08-22">Aug 22, 2024</time>
+                  </p>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <article>
+
+              <div class="post-img">
+                <img src="assets/img/blog/Sump Pit Cleaning.png" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Sump Pit Cleaning</p>
+
+              <h2 class="title">
+                <a href="https://medium.com/@niqa.hygiene/why-regular-sump-pit-cleaning-is-essential-for-preventing-costly-water-damage-dc657b370b35">Why Regular Sump Pit Cleaning is Essential for Preventing Costly Water Damage</a>
+              </h2>
+
+              <div class="d-flex align-items-center">
+                <img src="assets/img/blog/blog-author-3.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <div class="post-meta">
+                  <p class="post-author">Ashique Rahman</p>
+                  <p class="post-date">
+                    <time datetime="2024-08-19">Aug 19, 2024</time>
+                  </p>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+        </div><!-- End recent posts list -->
+
+      </div>
+
+    </section><!-- /Recent Posts Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Get in touch with Niqa Hygiene for inquiries. We're here to assist you!</p>
+      </div><!-- End Section Title -->
+
+      <!-- <div class="mb-5">
+        <iframe style="width: 100%; height: 400px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen=""></iframe>
+      </div> -->
+      <!-- End Google Maps -->
+
+      <div class="container" data-aos="fade">
+
+        <div class="row gy-5 gx-lg-5">
+
+          <div class="col-lg-4">
+
+            <div class="info">
+              <h3>Get in touch</h3>
+              <!-- <p>Et id eius voluptates atque nihil voluptatem enim in tempore minima sit ad mollitia commodi minus.</p> -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h4>Location:</h4>
+                  <p>Musaffah, Abu Dhabi, UAE</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h4>Email:</h4>
+                  <p>info@niqa.ae</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-phone flex-shrink-0"></i>
+                <div>
+                  <h4>Call:</h4>
+                  <p>+971 505425873</p>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="https://api.web3forms.com/submit" method="POST" role="form" class="php-email-form">
+              <input type="hidden" name="access_key" value="29833fbf-6be0-4331-8f20-f19344c7c0bd">
+
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" placeholder="Message" required=""></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading" style="display: none;">Loading</div>
+                <div class="error-message" style="display: none;"></div>
+                <div class="sent-message" style="display: none;">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">Niqa Hygiene</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>Musaffah</p>
+              <p>Abu Dhabi, UAE</p>
+              <p class="mt-3"><strong>Phone:</strong> <span>+971 505425873</span></p>
+              <p><strong>Email:</strong> <span>info@niqa.ae</span></p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Blog post</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="#">Drain Line Jetting</a></li>
+              <li><a href="#">Tank Cleaning Services</a></li>
+              <li><a href="#">Grease Trap Cleaning</a></li>
+              <li><a href="#">Pest Control Service</a></li>
+              <li><a href="#">Kitchen Hood Cleaning</a></li>
+              <li><a href="#">AC Duct Cleaning</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>. </h4>
+            <ul>
+              <li><a href="#">Root Cutting</a></li>
+              <li><a href="#">Water Tank Cleaning</a></li>
+              <li><a href="#">Septic Tank Cleaning</a></li>
+              <li><a href="#">Swimming Pool Cleaning</a></li>
+              <li><a href="#">Sewage Tank Cleaning</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Download Our Brochure!</h4>
+            <ul>
+              <a class="btn-getstarted" href="https://calendly.com/niqa-hygiene/30min" target="_blank" rel="noopener">Download</a>
+              <!-- <li><a href="#">Ipsam</a></li>
+              <li><a href="#">Laudantium dolorum</a></li>
+              <li><a href="#">Dinera</a></li>
+              <li><a href="#">Trodelas</a></li>
+              <li><a href="#">Flexo</a></li> -->
+            </ul>
+          </div>
+
+        </div>
+      </div>
     </div>
 
-    <div class="background">
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
+    <div class="copyright text-center">
+      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+
+        <div class="d-flex flex-column align-items-center align-items-lg-start">
+          <div>
+            © Copyright <strong><span>Niqa Hygiene</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
+            Designed by <a href="#">Niqa</a>
+          </div>
+        </div>
+
+        <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+          <a href=""><i class="bi bi-twitter-x"></i></a>
+          <a href=""><i class="bi bi-facebook"></i></a>
+          <a href=""><i class="bi bi-instagram"></i></a>
+          <a href=""><i class="bi bi-linkedin"></i></a>
+        </div>
+
+      </div>
     </div>
 
-    <script>
-        // Set the date we're counting down to
-        var countDownDate = new Date("july 6, 2024 15:37:25").getTime();
+  </footer>
 
-        // Update the countdown every 1 second
-        var x = setInterval(function() {
-            // Get today's date and time
-            var now = new Date().getTime();
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-            // Find the distance between now and the count down date
-            var distance = countDownDate - now;
+  <!-- Preloader -->
+  <div id="preloader"></div>
 
-            // Time calculations for days, hours, minutes and seconds
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
-            // Display the result in the element with id="demo"
-            document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-            + minutes + "m " + seconds + "s ";
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>  
 
-            // If the countdown is over, write some text
-            if (distance < 0) {
-                clearInterval(x);
-                document.getElementById("demo").innerHTML = "EXPIRED";
-            }
-        }, 1000);
-    </script>
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    const iconsAndTexts = [
+    {
+        icon: "icon1.png",
+        text: "Satisfaction Guarantee"
+    },
+    {
+        icon: "icon2.png",
+        text: "24H Availability"
+    },
+    {
+        icon: "icon3.png",
+        text: "Flexible Appointments"
+    }
+];
+
+function rotateIcons() {
+    const columns = document.querySelectorAll('.column');
+    const firstColumn = columns[0].querySelector('.icon-text').cloneNode(true);
+
+    // Move each icon-text pair to the next column
+    for (let i = 0; i < columns.length - 1; i++) {
+        const nextIconText = columns[i + 1].querySelector('.icon-text');
+        columns[i].querySelector('.icon-text').replaceWith(nextIconText.cloneNode(true));
+    }
+
+    // Move the first icon-text pair to the last column
+    columns[columns.length - 1].querySelector('.icon-text').replaceWith(firstColumn);
+}
+
+setInterval(rotateIcons, 3000); // Rotate icons every 3 seconds
+// error trouble shooting form submit
+// document.querySelector('.php-email-form').addEventListener('submit', async function(event) {
+//     event.preventDefault(); // Prevent the form from submitting normally
+//     const formData = new FormData(this);
+
+//     try {
+//         const response = await fetch('https://api.web3forms.com/submit', {
+//             method: 'POST',
+//             body: formData
+//         });
+
+//         if (!response.ok) {
+//             throw new Error(`HTTP error! status: ${response.status}`);
+//         }
+
+//         const result = await response.json();
+
+//         if (result.success) {
+//             document.querySelector('.sent-message').textContent = result.message;
+//             document.querySelector('.sent-message').style.display = 'block';
+//             document.querySelector('.error-message').style.display = 'none';
+//         } else {
+//             document.querySelector('.error-message').textContent = result.message || 'Failed to send the message. Please try again later.';
+//             document.querySelector('.error-message').style.display = 'block';
+//         }
+//     } catch (error) {
+//         console.error('Error:', error);
+//         document.querySelector('.error-message').textContent = 'Failed to send the message. Please try again later.';
+//         document.querySelector('.error-message').style.display = 'block';
+//     }
+// });
+
+</script>
+
 </body>
+
 </html>
